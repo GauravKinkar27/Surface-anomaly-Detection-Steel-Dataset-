@@ -25,7 +25,7 @@ Surface anomaly detection is the deep learning-based project where we trained th
 |  8 | water_spot     | Water stain/spot              |
 |  9 | welding_line   | Welding seam artifact         |
 
-💡 WHAT WE DID:
+WHAT WE DID:
 
 We didn't collect more data. We got creative.
 
@@ -36,9 +36,9 @@ We didn't collect more data. We got creative.
 → Balanced ALL 10 classes to 500–700 samples
 
 Total annotations went from 2,449 → 6,476
-The dataset was now ready to fight. 💪
+The dataset was now ready to fight. 
 
-🚀 THE RESULT:
+THE RESULT:
 
 Trained YOLOv8s
 
@@ -48,16 +48,16 @@ Trained YOLOv8s
 ✅ Inference speed — 3ms per image
 
 
-⚔️ WE ALSO COMPARED TWO ARCHITECTURES:
+WE ALSO COMPARED TWO ARCHITECTURES:
 YOLOv8s (CNN) vs RT-DETR (Transformer)
 
 Surprise — the newer flashy Transformer lost.
 73.2% vs 91.4%
 Lesson: Transformers need color data and massive datasets.
-For grayscale industrial images — CNN still wins. 🏆
+For grayscale industrial images — CNN still wins.
 
 
-📌 WHAT I ACTUALLY LEARNED:
+WHAT I ACTUALLY LEARNED:
 
 → Data > Model. Always.
 → Class imbalance can silently kill your project
